@@ -22,7 +22,7 @@ to read a model's answer) stays in the tools.
 
 ```toml
 [dependencies]
-opskit = { git = "https://github.com/samothx/opskit", tag = "v0.1.0" }
+opskit = { git = "https://github.com/samothx/opskit", tag = "v0.1.1" }
 ```
 
 To work on opskit and a tool together, point the tool at a local checkout without committing it:

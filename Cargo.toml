@@ -1,6 +1,6 @@
 [package]
 name = "opskit"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2024"
 license = "MIT"
 description = "Shared plumbing for the host ops tools (logscan, vulnwatch, sitewatch): severity, mail, ntfy, LLM client, state files, secrets."
