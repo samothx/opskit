@@ -1,4 +1,4 @@
-//! Mails a Markdown report through sendmail (msmtp on anubis): quoted-printable, optionally
+//! Mails a Markdown report through sendmail (e.g. msmtp): quoted-printable, optionally
 //! multipart/alternative with an HTML rendering in which raw HTML is always escaped.
 
 use std::io::Write;

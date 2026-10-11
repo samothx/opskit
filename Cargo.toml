@@ -2,7 +2,7 @@
 name = "opskit"
 version = "0.1.0"
 edition = "2024"
-description = "Shared plumbing for the host ops tools (logscan, vulnwatch): severity, mail, ntfy, LLM client, state files."
+description = "Shared plumbing for the host ops tools (logscan, vulnwatch, sitewatch): severity, mail, ntfy, LLM client, state files, secrets."
 publish = false
 
 [dependencies]

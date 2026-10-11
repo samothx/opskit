@@ -1,4 +1,4 @@
-//! opskit: shared plumbing for the host ops tools (logscan, vulnwatch).
+//! opskit: shared plumbing for the host ops tools (logscan, vulnwatch, sitewatch).
 //!
 //! Only things that are the same for every tool live here: the severity scale, text helpers,
 //! mailing a Markdown report through sendmail, pushing through `ntfy-dispatcher`, a minimal
