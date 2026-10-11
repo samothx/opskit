@@ -41,3 +41,7 @@ cargo test
 ```
 
 Rust edition 2024. Not published on crates.io.
+
+## License
+
+MIT, see [LICENSE](LICENSE).
