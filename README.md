@@ -31,6 +31,9 @@ To work on opskit and a tool together, point the tool at a local checkout withou
 cargo build --config 'patch."https://github.com/samothx/opskit".opskit.path="../opskit"'
 ```
 
+This rewrites the tool's `Cargo.lock` to the path source. Don't commit that: the next plain
+`cargo build` puts the GitHub source back.
+
 ## Build
 
 ```bash
